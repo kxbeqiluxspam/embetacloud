@@ -16,9 +16,9 @@ var FILE = require("fs");
 var mime = require("mime");
 var path = require("path");
 var events_1 = require("events");
-var CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
-var CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET;
-var REDIRECT_URL = process.env.GOOGLE_REDIRECT_URL;
+var CLIENT_ID = "91957406450-1cli05hh5nr95t3t0ea5oregqgt71hbr.apps.googleusercontent.com";
+var CLIENT_SECRET = "BfSV6aopARivSR-qgpLMsISD";
+var REDIRECT_URL = "https://embetacloud.scalingo.io/oauthCallback";
 var SCOPES = [
     'https://www.googleapis.com/auth/plus.me',
     'https://www.googleapis.com/auth/drive'
